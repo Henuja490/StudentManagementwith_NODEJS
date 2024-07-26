@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Student Login Page</title>
+    <link rel="stylesheet" href="./Css/studentlog.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    
+    <div class="wrapper">
+        <form action="" id="login-form">
+            <h1>Student Login</h1>
+            <div class="input-box">
+                <input type="text" placeholder="StudentID" id="username" required>
+                <i class='bx bxs-user'></i>
+            </div>
+            <div class="input-box">
+                <input type="password" placeholder="Password" id="password" required>
+                <i class='bx bxs-lock-alt'></i>
+            </div>
+            <p style="color: red;" id="error-message"></p>
+            <button type="submit" class="btn">Login</button> 
+            
+        </form>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
+    <script src="./Javascript/student.js"></script>
+</body>
+</html>

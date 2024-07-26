@@ -1,0 +1,72 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Page</title>
+   
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    
+    
+</head>
+<body>
+    <div class="container mt-5">
+        <h1 class="text-center mt-5">Student Profile</h1>
+        <p id="Error" style="color: white; background-color: red; width: 100%;text-align: center;"></p>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card ">
+                    <img src="./images/5850276.png" class="card-img-top" alt="Profile Picture">
+                    <div class="card-body bg-light  text-center">
+                        <h5 class="card-title" id="name"></h5>
+                        <p class="card-text ">Student</p>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-8">
+                <div class="card">
+                    <div class="card-header bg-dark text-white">
+                        <h4>Profile Information</h4>
+                    </div>
+                    <div class="card-body bg-light ">
+                        <div class="row">
+                            <div class="col-md-6 ">
+                                <h5>Subjects</h5>
+                                <p id="subjects"></p>
+                                <h5>Semester In</h5>
+                                <p id="SemesterIn"></p>
+                                <h5>Semester Paid</h5>
+                                <p id="SemesterPaid"></p>
+                            </div>
+                            <div class="col-md-6">
+                                <h5>Contact Information</h5>
+                                <ul class="list-unstyled">
+                                    <strong>Email:</strong><li id="email"></li>
+                                    <strong>Phone:</strong><li id="phonenumber"></li>
+                                    <strong>Address:</strong><li id="address"></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card mt-3">
+                    <div class="card-header bg-dark text-white">
+                        <h4>Recent Courses</h4>
+                    </div>
+                    <div class="card-body bg-light" id="Courses">
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="./Javascript/home.js"></script>
+</body>
+</html>
